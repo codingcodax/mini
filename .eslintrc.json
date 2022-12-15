@@ -16,7 +16,7 @@
     "react/jsx-sort-props": [
       "warn",
       {
-        "callbackLast": true,
+        "callbacksLast": true,
         "shorthandFirst": true,
         "noSortAlphabetically": false,
         "reservedFirst": true
