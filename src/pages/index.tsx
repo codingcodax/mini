@@ -2,7 +2,7 @@ import { type NextPage } from 'next';
 import Link from 'next/link';
 const Home: NextPage = () => {
   return (
-    <main className='mx-auto mt-20 px-4 sm:px-6 md:px-8'>
+    <main className='mx-auto mt-20 px-4 sm:mt-24 sm:px-6 md:px-8 lg:mt-32'>
       <h1 className='grid text-center font-extrabold'>
         <span className='text-2xl sm:text-3xl'>The ultimate</span>
         <span className='text-4xl md:text-6xl'>micro components</span>
