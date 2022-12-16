@@ -6,4 +6,8 @@
   body {
     @apply bg-slate-50 bg-[url('/images/light-beams.jpg')] bg-[length:150rem] bg-bottom bg-no-repeat dark:bg-[#0B1120] dark:bg-[url('/images/dark-beams.jpg')] dark:bg-[length:86.125rem];
   }
+
+  #__next {
+    @apply grid min-h-screen grid-rows-[auto_1fr_auto];
+  }
 }
