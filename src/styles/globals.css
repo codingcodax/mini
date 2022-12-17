@@ -17,6 +17,6 @@
   }
 
   #__next {
-    @apply grid min-h-screen grid-rows-[auto_1fr_auto];
+    @apply relative grid min-h-screen grid-rows-[auto_1fr_auto] bg-[url('/images/light-grid.svg')] dark:bg-[url('/images/dark-grid.svg')];
   }
 }
