@@ -1,5 +1,8 @@
 import type { NextPage } from 'next';
 
+import { Snippet } from '~/components/pages/components';
+import Snippets from '~/data/snippets';
+
 const Components: NextPage = () => {
   return (
     <div className='mx-auto mt-10 px-4 sm:px-6 md:px-8'>
@@ -33,6 +36,14 @@ const Components: NextPage = () => {
           </li>
         </ol>
       </main>
+
+      <section className='mx-auto mt-20 max-w-3xl'>
+        <ul className='grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3'>
+          {Snippets.map((snippet) => (
+            <Snippet key={snippet.title} {...snippet} />
+          ))}
+        </ul>
+      </section>
     </div>
   );
 };
