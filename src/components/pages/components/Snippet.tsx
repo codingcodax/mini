@@ -6,20 +6,23 @@ import { Icons } from '~/components/atoms';
 type SnippetProps = SnippetType;
 
 const Snippet = ({
-  title,
   githubLink,
   playgroundLink,
   source,
   animation,
 }: SnippetProps) => {
   return (
-    <li className='relative z-10 flex h-24 items-center justify-center rounded-lg bg-slate-800 ring-1 ring-inset backdrop-blur dark:bg-slate-900/70 dark:ring-white/10'>
-      {source}
+    <li className='relative rounded-lg bg-slate-800 ring-1 ring-inset backdrop-blur dark:bg-slate-900/70 dark:ring-white/10'>
+      <div className='flex h-10 items-center justify-between border-b border-slate-500/30 px-3'>
+        <div className='flex space-x-1.5'>
+          <div className='h-2 w-2 rounded-full bg-slate-600'></div>
+          <div className='h-2 w-2 rounded-full bg-slate-600'></div>
+          <div className='h-2 w-2 rounded-full bg-slate-600'></div>
+        </div>
 
-      <div className='absolute top-1 right-1 z-40'>
-        <Menu as='div' className='relative'>
-          <Menu.Button className='rounded-lg p-1 hover:bg-slate-800'>
-            <Icons.EllipsisHorizontal className='h-6 w-6' />
+        <Menu as='div' className='relative h-8'>
+          <Menu.Button className='rounded-lg hover:bg-slate-800'>
+            <Icons.EllipsisHorizontal className='h-8 w-8 fill-slate-600' />
           </Menu.Button>
 
           <Menu.Items className='absolute right-0 z-40 mt-2 grid w-56 rounded-md bg-slate-900 p-1 shadow-lg ring-1 ring-inset ring-white/10 backdrop-blur focus:outline-none'>
@@ -57,6 +60,8 @@ const Snippet = ({
           </Menu.Items>
         </Menu>
       </div>
+
+      <div className='flex h-24 items-center justify-center'>{source}</div>
     </li>
   );
 };
