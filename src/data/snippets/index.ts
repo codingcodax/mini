@@ -7,6 +7,7 @@ import LinkUnderlineRightRight from './LinkUnderlineRightRight';
 import LinkUnderlineLeftRight from './LinkUnderlineLeftRight';
 import LinkUnderlineRightLeft from './LinkUnderlineRightLeft';
 import LinkShowUnderlineLeftLeft from './LinkShowUnderlineLeftLeft';
+import LinkShowUnderlineRightRight from './LinkShowUnderlineRightRight';
 import LinkShowUnderlineLeftRight from './LinkShowUnderlineLeftRight';
 import LinkShowUnderlineRightLeft from './LinkShowUnderlineRightLeft';
 
@@ -18,6 +19,7 @@ const Snippets: Snippet[] = [
   LinkUnderlineLeftRight,
   LinkUnderlineRightLeft,
   LinkShowUnderlineLeftLeft,
+  LinkShowUnderlineRightRight,
   LinkShowUnderlineLeftRight,
   LinkShowUnderlineRightLeft,
 ];
