@@ -14,6 +14,7 @@ import LinkShowUnderlineLeftRight from './LinkShowUnderlineLeftRight';
 import LinkShowUnderlineRightLeft from './LinkShowUnderlineRightLeft';
 import LinkUnderlineBottomUp from './LinkUnderlineBottomUp';
 import LinkShowUnderlineUpBottom from './LinkShowUnderlineUpBottom';
+import LinkShowUnderlineSquiggle from './LinkShowUnderlineSquiggle';
 
 const Snippets: Snippet[] = [
   LinkUnderlineCenterOutside,
@@ -30,6 +31,7 @@ const Snippets: Snippet[] = [
   LinkShowUnderlineRightLeft,
   LinkUnderlineBottomUp,
   LinkShowUnderlineUpBottom,
+  LinkShowUnderlineSquiggle,
 ];
 
 export default Snippets;
