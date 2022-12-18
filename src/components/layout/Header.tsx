@@ -1,4 +1,4 @@
-import { ExternalLink } from '~/components/atoms';
+import { ExternalLink, Icons } from '~/components/atoms';
 
 const Header = () => {
   return (
@@ -8,10 +8,10 @@ const Header = () => {
       <ul>
         <li>
           <ExternalLink
-            className='text-sm font-medium text-slate-700 hover:text-sky-500 dark:text-slate-200 dark:hover:text-sky-400'
+            className='text-sm font-medium text-slate-400 hover:text-slate-500 dark:hover:text-slate-300'
             href='https://github.com/codingcodax'
           >
-            GitHub
+            <Icons.Github className='h-5 w-5' />
           </ExternalLink>
         </li>
       </ul>
