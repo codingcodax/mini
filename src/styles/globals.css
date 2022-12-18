@@ -20,3 +20,13 @@
     @apply relative grid min-h-screen grid-rows-[auto_1fr_auto] bg-[url('/images/light-grid.svg')] dark:bg-[url('/images/dark-grid.svg')];
   }
 }
+
+@layer components {
+  .menu-item {
+    @apply flex items-center rounded-md p-2 text-sm text-white ui-active:bg-slate-800;
+  }
+
+  .menu-icon {
+    @apply mr-2 h-4 w-4 fill-slate-400;
+  }
+}
