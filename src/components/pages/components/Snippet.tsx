@@ -32,7 +32,7 @@ const Snippet = ({
         </div>
 
         <Menu as='div' className='relative h-8'>
-          <Menu.Button className='rounded-lg hover:bg-slate-800'>
+          <Menu.Button className='rounded-lg hover:bg-slate-700/80 dark:hover:bg-slate-800'>
             <Icons.EllipsisHorizontal className='h-8 w-8 fill-slate-600' />
           </Menu.Button>
 
