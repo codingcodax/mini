@@ -37,7 +37,7 @@ const Components: NextPage = () => {
         </ol>
       </main>
 
-      <section className='mx-auto mt-20 max-w-3xl'>
+      <section className='mx-auto mt-20 max-w-screen-lg'>
         <ul className='grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
           {Snippets.map((snippet) => (
             <Snippet key={snippet.title} {...snippet} />
