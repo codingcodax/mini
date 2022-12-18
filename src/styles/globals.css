@@ -23,7 +23,7 @@
 
 @layer components {
   .menu-item {
-    @apply flex items-center rounded-md p-2 text-sm text-white ui-active:bg-slate-800;
+    @apply flex items-center rounded-md p-2 text-sm text-white ui-active:bg-slate-700 dark:ui-active:bg-slate-800;
   }
 
   .menu-icon {
