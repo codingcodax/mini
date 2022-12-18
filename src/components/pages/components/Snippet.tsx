@@ -73,7 +73,7 @@ const Snippet = ({
         </Menu>
       </div>
 
-      <div className='flex h-24 items-center justify-center'>{source}</div>
+      <div className='flex h-28 items-center justify-center'>{source}</div>
     </li>
   );
 };
