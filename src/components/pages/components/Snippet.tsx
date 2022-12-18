@@ -49,7 +49,7 @@ const Snippet = ({
               <Icons.VideoCamera className='menu-icon' />
               Copy Keyframes
             </Menu.Item>
-            <div className='my-1 h-px w-full bg-slate-300 dark:bg-slate-800' />
+            <div className='my-1 h-px w-full bg-slate-800' />
             <Menu.Item
               as='a'
               className='menu-item'
