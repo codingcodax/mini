@@ -1,0 +1,1 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="squiggle-link" viewBox="0 0 10 18"><style>@keyframes shift{0%{transform:translateX(-10px)}to{transform:translateX(0)}}</style><path fill="none" stroke="#E2E8F0" d="M0 17.5c2.5 0 2.5-1.5 5-1.5s2.5 1.5 5 1.5 2.5-1.5 5-1.5 2.5 1.5 5 1.5" style="animation:shift .5s linear infinite"/></svg>
