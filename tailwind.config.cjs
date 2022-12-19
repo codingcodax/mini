@@ -12,6 +12,11 @@ module.exports = {
           '80%': { transform: 'translateX(2px)' },
           '100%': { transform: 'translateX(0)' },
         },
+        grow: {
+          '0%': { transform: 'scaleY(0.3)' },
+          '50%': { transform: 'scaleY(1)' },
+          '100%': { transform: 'scaleY(0.3)' },
+        },
       },
       animation: {
         swing: 'swing 1s ease 1',
