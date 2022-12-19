@@ -22,6 +22,7 @@ import LinkFlickBottom from './LinkFlickBottom';
 import LinkArrowRight from './LinkArrowRight';
 import LinkSwing from './LinkSwing';
 import LoaderSpinner from './LoaderSpinner';
+import LoaderWaveform from './LoaderWaveform';
 
 const Snippets: Snippet[] = [
   LinkUnderlineCenterOutside,
@@ -46,6 +47,7 @@ const Snippets: Snippet[] = [
   LinkArrowRight,
   LinkSwing,
   LoaderSpinner,
+  LoaderWaveform,
 ];
 
 export default Snippets;
