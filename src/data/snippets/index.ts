@@ -20,6 +20,7 @@ import LinkShowHighlightFullBottom from './LinkShowHighlightFullBottom';
 import LinkFlickUp from './LinkFlickUp';
 import LinkFlickBottom from './LinkFlickBottom';
 import LinkArrowRight from './LinkArrowRight';
+import LinkSwing from './LinkSwing';
 
 const Snippets: Snippet[] = [
   LinkUnderlineCenterOutside,
@@ -42,6 +43,7 @@ const Snippets: Snippet[] = [
   LinkFlickUp,
   LinkFlickBottom,
   LinkArrowRight,
+  LinkSwing,
 ];
 
 export default Snippets;
