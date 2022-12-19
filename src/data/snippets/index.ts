@@ -21,6 +21,7 @@ import LinkFlickUp from './LinkFlickUp';
 import LinkFlickBottom from './LinkFlickBottom';
 import LinkArrowRight from './LinkArrowRight';
 import LinkSwing from './LinkSwing';
+import LoaderSpinner from './LoaderSpinner';
 
 const Snippets: Snippet[] = [
   LinkUnderlineCenterOutside,
@@ -44,6 +45,7 @@ const Snippets: Snippet[] = [
   LinkFlickBottom,
   LinkArrowRight,
   LinkSwing,
+  LoaderSpinner,
 ];
 
 export default Snippets;
