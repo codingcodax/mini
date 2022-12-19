@@ -17,6 +17,11 @@ module.exports = {
           '50%': { transform: 'scaleY(1)' },
           '100%': { transform: 'scaleY(0.3)' },
         },
+        wobble: {
+          '0%': { transform: 'translateX(0rem)' },
+          '50%': { transform: 'translateX(2rem)' },
+          '100%': { transform: 'translateX(0rem)' },
+        },
       },
       animation: {
         swing: 'swing 1s ease 1',
