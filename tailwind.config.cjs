@@ -27,6 +27,11 @@ module.exports = {
           '50%': { transform: 'translateY(-1.25rem)' },
           '100%': { transform: 'translateY(0)' },
         },
+        pulse2: {
+          '0%': { transform: 'scale(0)' },
+          '50%': { transform: 'scale(1.5)' },
+          '100%': { transform: 'scale(0)' },
+        },
       },
       animation: {
         swing: 'swing 1s ease 1',
