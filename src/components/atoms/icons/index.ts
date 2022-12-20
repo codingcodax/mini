@@ -5,6 +5,7 @@ import Github from './Github';
 import Link from './Link';
 import Loader from './Loader';
 import Play from './Play';
+import TriangleSquareCircle from './TriangleSquareCircle';
 import VideoCamera from './VideoCamera';
 
 const Icons = {
@@ -15,6 +16,7 @@ const Icons = {
   Link,
   Loader,
   Play,
+  TriangleSquareCircle,
   VideoCamera,
 };
 
