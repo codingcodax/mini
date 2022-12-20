@@ -37,6 +37,10 @@ module.exports = {
           '50%': { transform: 'scale(1)', opacity: '0.25' },
           '100%': { transform: 'scale(0)', opacity: '1' },
         },
+        ping2: {
+          '0%': { transform: 'scale(0)', opacity: '1' },
+          '100%': { transform: 'scale(1)', opacity: '0' },
+        },
       },
       animation: {
         swing: 'swing 1s ease 1',
