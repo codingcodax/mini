@@ -1,3 +1,4 @@
+import Buttons from './Buttons';
 import CodeBracket from './CodeBracket';
 import EllipsisHorizontal from './EllipsisHorizontal';
 import Forms from './Forms';
@@ -9,6 +10,7 @@ import TriangleSquareCircle from './TriangleSquareCircle';
 import VideoCamera from './VideoCamera';
 
 const Icons = {
+  Buttons,
   CodeBracket,
   EllipsisHorizontal,
   Forms,
