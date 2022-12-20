@@ -7,7 +7,7 @@ const LinkSwing: Snippet = {
     'https://github.com/codingcodax/mini/tree/main/src/data/snippets/LinkSwing.tsx',
   playgroundLink: 'https://play.tailwindcss.com/Fo1uaEVKzz',
   source: (
-    <a className='hover:animate-swing text-slate-50' href='#'>
+    <a className='text-slate-50 hover:animate-swing' href='#'>
       Swing
     </a>
   ),
