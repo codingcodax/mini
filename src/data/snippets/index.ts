@@ -25,6 +25,7 @@ import LoaderSpinner from './LoaderSpinner';
 import LoaderWaveform from './LoaderWaveform';
 import LoaderWobble from './LoaderWobble';
 import LoaderDotWave from './LoaderDotWave';
+import LoaderDotPulse from './LoaderDotPulse';
 
 const Snippets: Snippet[] = [
   LinkUnderlineCenterOutside,
@@ -52,6 +53,7 @@ const Snippets: Snippet[] = [
   LoaderWaveform,
   LoaderWobble,
   LoaderDotWave,
+  LoaderDotPulse,
 ];
 
 export default Snippets;
