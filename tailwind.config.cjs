@@ -22,6 +22,11 @@ module.exports = {
           '50%': { transform: 'translateX(2rem)' },
           '100%': { transform: 'translateX(0rem)' },
         },
+        jump: {
+          '0%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-1.25rem)' },
+          '100%': { transform: 'translateY(0)' },
+        },
       },
       animation: {
         swing: 'swing 1s ease 1',
