@@ -1,13 +1,18 @@
+import { useMemo, useState } from 'react';
 import { RadioGroup } from '@headlessui/react';
 import type { NextPage } from 'next';
-import { useState } from 'react';
 
 import { Steps, Snippet } from '~/components/pages/components';
 import Snippets from '~/data/snippets';
 import SnippetTypes from '~/data/snippetTypes';
 
 const Components: NextPage = () => {
-  const [typeSelected, setTypeSelected] = useState(SnippetTypes[0]);
+  const [typeSelected, setTypeSelected] = useState(SnippetTypes[1]);
+
+  const filteredSnippets = useMemo(() => {
+    if (typeSelected?.type === 'all') return Snippets;
+    return Snippets.filter((snippet) => snippet.type === typeSelected?.type);
+  }, [typeSelected]);
 
   return (
     <div className='mx-auto mt-10 px-4 sm:px-6 md:px-8'>
@@ -48,7 +53,7 @@ const Components: NextPage = () => {
 
       <section className='mx-auto mt-10 max-w-screen-lg'>
         <ul className='grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
-          {Snippets.map((snippet) => (
+          {filteredSnippets.map((snippet) => (
             <Snippet key={snippet.title} {...snippet} />
           ))}
         </ul>
