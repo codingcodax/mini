@@ -3,7 +3,7 @@ import { Icons } from '~/components/atoms';
 const SnippetTypes = [
   {
     name: 'All',
-    type: '',
+    type: 'all',
     icon: <Icons.TriangleSquareCircle className='mb-6 h-12 w-12 stroke-1' />,
   },
   {
