@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-slate-50 bg-[url('/images/light-beams.jpg')] bg-[length:150rem] bg-bottom bg-no-repeat text-slate-500 dark:bg-[#0B1120] dark:bg-[url('/images/dark-beams.jpg')] dark:bg-[length:86.125rem] dark:text-slate-400;
+    @apply bg-slate-50 bg-[url('/images/light-beams.jpg')] bg-[length:150rem] bg-fixed bg-bottom bg-no-repeat text-slate-500 dark:bg-[#0B1120] dark:bg-[url('/images/dark-beams.jpg')] dark:bg-[length:86.125rem] dark:text-slate-400;
   }
 
   h1,
