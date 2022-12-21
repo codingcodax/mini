@@ -22,6 +22,7 @@ import LinkFlickBottom from './LinkFlickBottom';
 import LinkArrowRight from './LinkArrowRight';
 import LinkSwing from './LinkSwing';
 import LinkMixUp from './LinkMixUp';
+import LinkMixBottom from './LinkMixBottom';
 import LoaderSpinner from './LoaderSpinner';
 import LoaderWaveform from './LoaderWaveform';
 import LoaderWobble from './LoaderWobble';
@@ -54,6 +55,7 @@ const Snippets: Snippet[] = [
   LinkArrowRight,
   LinkSwing,
   LinkMixUp,
+  LinkMixBottom,
   LoaderSpinner,
   LoaderWaveform,
   LoaderWobble,
