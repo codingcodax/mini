@@ -41,6 +41,9 @@ module.exports = {
           '0%': { transform: 'scale(0)', opacity: '1' },
           '100%': { transform: 'scale(1)', opacity: '0' },
         },
+        waving: {
+          to: { 'backgroud-position': '80px 50%, 150px 50%' },
+        },
       },
       animation: {
         swing: 'swing 1s ease 1',
