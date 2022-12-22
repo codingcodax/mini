@@ -1,6 +1,6 @@
 export interface Snippet {
   title: string;
-  type: 'link' | 'button' | 'input' | 'loader';
+  type: 'link' | 'button' | 'input' | 'loader' | 'other';
   githubLink: string;
   playgroundLink: string;
   source: JSX.Element;
