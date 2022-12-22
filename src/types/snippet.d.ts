@@ -6,3 +6,9 @@ export interface Snippet {
   source: JSX.Element;
   animation?: string;
 }
+
+export interface SnippetType {
+  name: string;
+  type: string;
+  icon: JSX.Element;
+}
