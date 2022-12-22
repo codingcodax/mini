@@ -1,6 +1,7 @@
+import type { SnippetType } from '~/types/snippet';
 import { Icons } from '~/components/atoms';
 
-const SnippetTypes = [
+const SnippetTypes: SnippetType[] = [
   {
     name: 'All',
     type: 'all',
