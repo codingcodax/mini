@@ -1,5 +1,6 @@
 import Apps from './Apps';
 import Buttons from './Buttons';
+import ChevronDown from './ChevronDown';
 import CodeBracket from './CodeBracket';
 import EllipsisHorizontal from './EllipsisHorizontal';
 import Forms from './Forms';
@@ -13,6 +14,7 @@ import VideoCamera from './VideoCamera';
 const Icons = {
   Apps,
   Buttons,
+  ChevronDown,
   CodeBracket,
   EllipsisHorizontal,
   Forms,
