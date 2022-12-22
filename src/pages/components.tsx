@@ -7,7 +7,7 @@ import Snippets from '~/data/snippets';
 import SnippetTypes from '~/data/snippetTypes';
 
 const Components: NextPage = () => {
-  const [typeSelected, setTypeSelected] = useState(SnippetTypes[1]);
+  const [typeSelected, setTypeSelected] = useState(SnippetTypes[0]);
 
   const filteredSnippets = useMemo(() => {
     if (typeSelected?.type === 'all') return Snippets;
