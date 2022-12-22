@@ -31,9 +31,9 @@ const Snippet = ({
           <div className='h-2 w-2 rounded-full bg-slate-600'></div>
         </div>
 
-        <Menu as='div' className='relative h-8'>
+        <Menu as='div' className='relative h-6'>
           <Menu.Button className='rounded-lg hover:bg-slate-700/80 dark:hover:bg-slate-800'>
-            <Icons.EllipsisHorizontal className='h-8 w-8 fill-slate-600' />
+            <Icons.ChevronDown className='h-6 w-6 stroke-slate-600' />
           </Menu.Button>
 
           <Menu.Items className='absolute right-0 z-40 mt-2 grid w-56 rounded-md bg-slate-800 p-1 shadow-lg backdrop-blur focus:outline-none dark:bg-slate-900 dark:ring-1 dark:ring-inset dark:ring-white/10'>
