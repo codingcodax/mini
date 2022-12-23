@@ -44,6 +44,10 @@ module.exports = {
         waving: {
           to: { 'backgroud-position': '80px 50%, 150px 50%' },
         },
+        shimmer: {
+          from: { backgroundPosition: '200% 0' },
+          to: { backgroundPosition: '-200% 0' },
+        },
       },
       animation: {
         swing: 'swing 1s ease 1',
