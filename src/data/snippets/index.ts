@@ -36,6 +36,7 @@ import LoaderPulsar from './LoaderPulsar';
 import LoaderPing from './LoaderPing';
 import LoaderRipples from './LoaderRipples';
 import SkeletonSimple from './SkeletonSimple';
+import SkeletonShimmer from './SkeletonShimmer';
 
 const Snippets: Snippet[] = [
   LinkUnderlineCenterOutside,
@@ -74,6 +75,7 @@ const Snippets: Snippet[] = [
   LoaderPing,
   LoaderRipples,
   SkeletonSimple,
+  SkeletonShimmer,
 ];
 
 export default Snippets;
