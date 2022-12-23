@@ -1,0 +1,20 @@
+{
+    "name": "mini | tailwind snippets",
+    "short_name": "mini | tailwind snippets",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#0b1120",
+    "background_color": "#0b1120",
+    "start_url": "https://mini.codingcodax.dev/",
+    "display": "standalone"
+}
