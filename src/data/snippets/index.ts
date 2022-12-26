@@ -32,6 +32,7 @@ import ButtonUnderlayRightRight from './ButtonUnderlayRightRight';
 import ButtonUnderlayLeftRight from './ButtonUnderlayLeftRight';
 import ButtonUnderlayRightLeft from './ButtonUnderlayRightLeft';
 import ButtonUnderlayCenterOutside from './ButtonUnderlayCenterOutside';
+import ButtonUnderlayOutsideCenter from './ButtonUnderlayOutsideCenter';
 import ButtonUnderlayOpacityCenterOutside from './ButtonUnderlayOpacityCenterOutside';
 import LoaderSpinner from './LoaderSpinner';
 import LoaderWaveform from './LoaderWaveform';
@@ -77,6 +78,7 @@ const Snippets: Snippet[] = [
   ButtonUnderlayLeftRight,
   ButtonUnderlayRightLeft,
   ButtonUnderlayCenterOutside,
+  ButtonUnderlayOutsideCenter,
   ButtonUnderlayOpacityCenterOutside,
   LoaderSpinner,
   LoaderWaveform,
