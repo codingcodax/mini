@@ -30,6 +30,7 @@ import LinkSpringBounce from './LinkSpringBounce';
 import ButtonUnderlayLeftLeft from './ButtonUnderlayLeftLeft';
 import ButtonUnderlayRightRight from './ButtonUnderlayRightRight';
 import ButtonUnderlayLeftRight from './ButtonUnderlayLeftRight';
+import ButtonUnderlayRightLeft from './ButtonUnderlayRightLeft';
 import LoaderSpinner from './LoaderSpinner';
 import LoaderWaveform from './LoaderWaveform';
 import LoaderWobble from './LoaderWobble';
@@ -72,6 +73,7 @@ const Snippets: Snippet[] = [
   ButtonUnderlayLeftLeft,
   ButtonUnderlayRightRight,
   ButtonUnderlayLeftRight,
+  ButtonUnderlayRightLeft,
   LoaderSpinner,
   LoaderWaveform,
   LoaderWobble,
