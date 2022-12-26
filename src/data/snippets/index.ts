@@ -28,6 +28,7 @@ import LinkMixLeft from './LinkMixLeft';
 import LinkWavyRight from './LinkWavyRight';
 import LinkSpringBounce from './LinkSpringBounce';
 import ButtonUnderlayLeftLeft from './ButtonUnderlayLeftLeft';
+import ButtonUnderlayLeftRight from './ButtonUnderlayLeftRight';
 import LoaderSpinner from './LoaderSpinner';
 import LoaderWaveform from './LoaderWaveform';
 import LoaderWobble from './LoaderWobble';
@@ -68,6 +69,7 @@ const Snippets: Snippet[] = [
   LinkWavyRight,
   LinkSpringBounce,
   ButtonUnderlayLeftLeft,
+  ButtonUnderlayLeftRight,
   LoaderSpinner,
   LoaderWaveform,
   LoaderWobble,
