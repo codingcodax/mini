@@ -2,7 +2,7 @@ import type { Snippet } from '~/types/snippet';
 
 const ButtonUnderlayLeftLeft: Snippet = {
   title: 'Button Underlay Left Left',
-  type: 'link',
+  type: 'button',
   githubLink:
     'https://github.com/codingcodax/mini/tree/main/src/data/snippets/ButtonUnderlayLeftLeft.tsx',
   playgroundLink: 'https://play.tailwindcss.com/yN0Tc3mhb4',
