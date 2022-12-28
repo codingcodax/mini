@@ -38,6 +38,7 @@ import ButtonUnderlayOpacityOutsideCenter from './ButtonUnderlayOpacityOutsideCe
 import ButtonGradient from './ButtonGradient';
 import InputMaterial from './InputMaterial';
 import InputMaterialTwo from './InputMaterialTwo';
+import InputGroupLeft from './InputGroupLeft';
 import LoaderSpinner from './LoaderSpinner';
 import LoaderWaveform from './LoaderWaveform';
 import LoaderWobble from './LoaderWobble';
@@ -88,6 +89,7 @@ const Snippets: Snippet[] = [
   ButtonGradient,
   InputMaterial,
   InputMaterialTwo,
+  InputGroupLeft,
   LoaderSpinner,
   LoaderWaveform,
   LoaderWobble,
