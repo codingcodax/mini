@@ -39,6 +39,7 @@ import ButtonGradient from './ButtonGradient';
 import InputMaterial from './InputMaterial';
 import InputMaterialTwo from './InputMaterialTwo';
 import InputGroupLeft from './InputGroupLeft';
+import InputGroupRight from './InputGroupRight';
 import LoaderSpinner from './LoaderSpinner';
 import LoaderWaveform from './LoaderWaveform';
 import LoaderWobble from './LoaderWobble';
@@ -90,6 +91,7 @@ const Snippets: Snippet[] = [
   InputMaterial,
   InputMaterialTwo,
   InputGroupLeft,
+  InputGroupRight,
   LoaderSpinner,
   LoaderWaveform,
   LoaderWobble,
