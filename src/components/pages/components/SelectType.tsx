@@ -19,9 +19,14 @@ const SelectType = ({ selected, setSelected }: SelectTypeProps) => {
       <RadioGroup.Label className='sr-only'>Snippets type</RadioGroup.Label>
       <ul className='grid grid-cols-[repeat(6,_4rem)] gap-10 sm:w-fit'>
         {SnippetTypes.map((snippetType) => (
-          <RadioGroup.Option key={snippetType.name} as='li' value={snippetType}>
+          <RadioGroup.Option
+            key={snippetType.name}
+            as='li'
+            className='focus:outline-none'
+            value={snippetType}
+          >
             <button
-              className='flex w-full min-w-[4rem] flex-col items-center text-sm font-semibold text-slate-300 ui-checked:text-sky-500 ui-not-checked:hover:text-slate-400 dark:text-slate-600 dark:ui-checked:text-sky-500 dark:ui-not-checked:hover:text-slate-500'
+              className='flex w-full min-w-[4rem] flex-col items-center text-sm font-semibold text-slate-300 focus-within:text-sky-500 focus:outline-none ui-checked:text-sky-500 ui-not-checked:hover:text-slate-400 dark:text-slate-600 dark:focus-within:text-sky-400 dark:ui-checked:text-sky-400 dark:ui-not-checked:hover:text-slate-500'
               type='button'
             >
               {snippetType.icon}
