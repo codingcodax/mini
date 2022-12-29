@@ -42,6 +42,7 @@ import InputGroupLeft from './InputGroupLeft';
 import InputGroupRight from './InputGroupRight';
 import InputCheckboxSimple from './InputCheckboxSimple';
 import InputCheckboxSimpleSwitch from './InputCheckboxSimpleSwitch';
+import InputCheckboxMaterialSwitch from './InputCheckboxMaterialSwitch';
 import LoaderSpinner from './LoaderSpinner';
 import LoaderWaveform from './LoaderWaveform';
 import LoaderWobble from './LoaderWobble';
@@ -96,6 +97,7 @@ const Snippets: Snippet[] = [
   InputGroupRight,
   InputCheckboxSimple,
   InputCheckboxSimpleSwitch,
+  InputCheckboxMaterialSwitch,
   LoaderSpinner,
   LoaderWaveform,
   LoaderWobble,
