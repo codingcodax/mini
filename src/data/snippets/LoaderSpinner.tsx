@@ -5,10 +5,10 @@ const LoaderSpinner: Snippet = {
   type: 'loader',
   githubLink:
     'https://github.com/codingcodax/mini/tree/main/src/data/snippets/LoaderSpinner.tsx',
-  playgroundLink: 'https://play.tailwindcss.com/bUGsdDJW7t',
+  playgroundLink: 'https://play.tailwindcss.com/DEHVw14MLi',
   source: (
     <svg
-      className='h-8 w-8 animate-spin text-slate-50'
+      className='h-10 w-10 animate-spin text-slate-50'
       fill='none'
       viewBox='0 0 24 24'
       xmlns='http://www.w3.org/2000/svg'
