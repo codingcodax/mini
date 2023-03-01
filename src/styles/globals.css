@@ -16,6 +16,10 @@
     @apply text-lg text-slate-600 dark:text-slate-400;
   }
 
+  a {
+    @apply cursor-pointer;
+  }
+
   #__next {
     @apply relative grid min-h-screen grid-rows-[auto_1fr_auto] bg-[url('/images/light-grid.svg')] dark:bg-[url('/images/dark-grid.svg')];
   }
