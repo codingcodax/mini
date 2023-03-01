@@ -7,7 +7,7 @@ const LinkFlickBottom: Snippet = {
     'https://github.com/codingcodax/mini/tree/main/src/data/snippets/LinkFlickBottom.tsx',
   playgroundLink: 'https://play.tailwindcss.com/hLjBPOpt1Q',
   source: (
-    <a className='group relative overflow-hidden text-slate-50' href='#'>
+    <a className='group relative overflow-hidden text-slate-50'>
       <span className='invisible'>Flick bottom</span>
       <span className='absolute top-0 left-0 transition-transform duration-500 ease-in-out hover:duration-300 group-hover:translate-y-full'>
         Flick bottom

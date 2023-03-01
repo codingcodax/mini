@@ -6,11 +6,7 @@ const LinkSwing: Snippet = {
   githubLink:
     'https://github.com/codingcodax/mini/tree/main/src/data/snippets/LinkSwing.tsx',
   playgroundLink: 'https://play.tailwindcss.com/Fo1uaEVKzz',
-  source: (
-    <a className='text-slate-50 hover:animate-swing' href='#'>
-      Swing
-    </a>
-  ),
+  source: <a className='text-slate-50 hover:animate-swing'>Swing</a>,
   animation: `keyframes: {
         swing: {
           '15%': { transform: 'translateX(5px)' },

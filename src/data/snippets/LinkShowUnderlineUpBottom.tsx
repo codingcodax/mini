@@ -7,10 +7,7 @@ const LinkShowUnderlineUpBottom: Snippet = {
     'https://github.com/codingcodax/mini/tree/main/src/data/snippets/LinkShowUnderlineUpBottom.tsx',
   playgroundLink: 'https://play.tailwindcss.com/npApwGLh1o',
   source: (
-    <a
-      className='relative text-slate-50 after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:translate-y-0 after:bg-slate-50 after:opacity-100 after:transition after:duration-200 after:ease-in-out hover:after:translate-y-1 hover:after:opacity-0'
-      href='#'
-    >
+    <a className='relative text-slate-50 after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:translate-y-0 after:bg-slate-50 after:opacity-100 after:transition after:duration-200 after:ease-in-out hover:after:translate-y-1 hover:after:opacity-0'>
       Up to Bottom
     </a>
   ),

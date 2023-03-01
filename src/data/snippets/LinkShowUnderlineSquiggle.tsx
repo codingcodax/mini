@@ -7,10 +7,7 @@ const LinkShowUnderlineSquiggle: Snippet = {
     'https://github.com/codingcodax/mini/tree/main/src/data/snippets/LinkShowUnderlineSquiggle.tsx',
   playgroundLink: 'https://play.tailwindcss.com/BNBX2giPex',
   source: (
-    <a
-      className="text-slate-50 underline underline-offset-[3px] hover:bg-[url('https://mini.codingcodax.dev/images/squiggle.svg')] hover:no-underline"
-      href='#'
-    >
+    <a className="text-slate-50 underline underline-offset-[3px] hover:bg-[url('https://mini.codingcodax.dev/images/squiggle.svg')] hover:no-underline">
       squiggle
     </a>
   ),

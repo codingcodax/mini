@@ -7,10 +7,7 @@ const LinkArrowRight: Snippet = {
     'https://github.com/codingcodax/mini/tree/main/src/data/snippets/LinkArrowRight.tsx',
   playgroundLink: 'https://play.tailwindcss.com/mXjl1YPiXO',
   source: (
-    <a
-      className='group text-slate-50 transition duration-200 ease-in-out hover:text-sky-400'
-      href='#'
-    >
+    <a className='group text-slate-50 transition duration-200 ease-in-out hover:text-sky-400'>
       Hover over me{' '}
       <span
         aria-hidden='true'
