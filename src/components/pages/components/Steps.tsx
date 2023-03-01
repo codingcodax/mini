@@ -11,7 +11,8 @@ const Steps = () => {
       <li>
         <h2 className='font-semibold'>2. Copy</h2>
         <p className='mt-2'>
-          Right-click on the meatballs menu to copy the source or keyframes.
+          Click on the arrow at the top right to expand the menu and copy the
+          source or keyframes.
         </p>
       </li>
       <div className='h-px w-full bg-slate-300 dark:bg-slate-800 lg:h-full lg:w-px' />
