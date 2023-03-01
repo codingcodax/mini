@@ -36,6 +36,7 @@ import ButtonUnderlayOutsideCenter from './ButtonUnderlayOutsideCenter';
 import ButtonUnderlayOpacityCenterOutside from './ButtonUnderlayOpacityCenterOutside';
 import ButtonUnderlayOpacityOutsideCenter from './ButtonUnderlayOpacityOutsideCenter';
 import ButtonGradient from './ButtonGradient';
+import ButtonKeyboard from './ButtonKeyboard';
 import InputMaterial from './InputMaterial';
 import InputMaterialTwo from './InputMaterialTwo';
 import InputGroupLeft from './InputGroupLeft';
@@ -91,6 +92,7 @@ const Snippets: Snippet[] = [
   ButtonUnderlayOpacityCenterOutside,
   ButtonUnderlayOpacityOutsideCenter,
   ButtonGradient,
+  ButtonKeyboard,
   InputMaterial,
   InputMaterialTwo,
   InputGroupLeft,
