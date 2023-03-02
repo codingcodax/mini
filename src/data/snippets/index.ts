@@ -46,6 +46,7 @@ import InputCheckboxSimple from './InputCheckboxSimple';
 import InputCheckboxSimpleSwitch from './InputCheckboxSimpleSwitch';
 import InputCheckboxMaterialSwitch from './InputCheckboxMaterialSwitch';
 import LoaderSpinner from './LoaderSpinner';
+import LoaderDobleSpinner from './LoaderDobleSpinner';
 import LoaderWaveform from './LoaderWaveform';
 import LoaderWobble from './LoaderWobble';
 import LoaderDotWave from './LoaderDotWave';
@@ -103,6 +104,7 @@ const Snippets: Snippet[] = [
   InputCheckboxSimpleSwitch,
   InputCheckboxMaterialSwitch,
   LoaderSpinner,
+  LoaderDobleSpinner,
   LoaderWaveform,
   LoaderWobble,
   LoaderDotWave,
