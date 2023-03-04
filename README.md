@@ -1,28 +1,60 @@
-# Create T3 App
+<p align='center'>
+  <a href='https://github.com/codingcodax/slug'>
+    <img src='./.github/assets/logo.png' width='80' height='80' />
+  </a>
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+  <h3 align='center'>mini | tailwind snippets</h3>
 
-## What's next? How do I make an app with this?
+  <p align='center'>
+    <samp>An awesome collection of buttons, loaders, inputs and more built with tailwindcss, you can copy the source and open in tailwindcss playgroud.</samp>
+    <br />
+    <a href='https://mini.codingcodax.dev/components' rel='noopener noreferrer' target='_blank'><strong>See components</strong></a>
+    <br />
+    <br />
+    <a href='https://github.com/codingcodax/mini/issues'>Feature Request</a>
+    ·
+    <a href='https://github.com/codingcodax/mini/issues/'>Bug Report</a>
+  </p>
+</p>
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+## Features
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+- Ease copy paste.
+- Code on playground.
+
+### Techstack
+
+This app was built with the T3 Stack:
 
 - [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
 - [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
 
-## Learn More
+## Gallery
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+### Desktop
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+<details>
+  <summary>Dark</summary>
+  <img src='./.github/assets/desktop-preview-dark.png' width='600' />
+</details>
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+<details>
+  <summary>Light</summary>
+  <img src='./.github/assets/desktop-preview-light.png' width='600' />
+</details>
 
-## How do I deploy this?
+### Mobile
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+<details>
+  <summary>Dark</summary>
+  <img src='./.github/assets/mobile-preview-dark.png' width='300' />
+</details>
+
+<details>
+  <summary>Light</summary>
+  <img src='./.github/assets/mobile-preview-light.png' width='300' />
+</details>
+
+## License
+
+Licensed under the [MIT license](./LICENSE.md)
